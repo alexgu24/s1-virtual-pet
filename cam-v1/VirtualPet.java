@@ -40,4 +40,6 @@ public class VirtualPet {
         face.setImage("asleep");
     }
 
+
+
 } // end Virtual Pet
