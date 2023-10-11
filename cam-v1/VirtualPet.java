@@ -40,6 +40,11 @@ public class VirtualPet {
         face.setImage("asleep");
     }
 
+    public void death(){
+        if (hunger >= 10){
+            face.setImage("skeleton");
+        }
+    }
 
 
 } // end Virtual Pet

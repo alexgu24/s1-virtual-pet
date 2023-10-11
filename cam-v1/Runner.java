@@ -4,6 +4,11 @@ public class Runner{
     public Runner(){
         VirtualPet p = new VirtualPet();
         p.exercise();
+        p.exercise();
+        p.exercise();
+        p.exercise();
+        takeABeat(3000);
+        p.death();
 
     }
 
@@ -26,7 +31,6 @@ public class Runner{
         }
 
     public static void main(String[] args) {
-        VirtualPet p = new VirtualPet();
-        p.exercise();
+        new Runner();
     }
 }
